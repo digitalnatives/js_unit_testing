@@ -1,5 +1,8 @@
 {
   "name": "js_unit_test",
   "version": "0.1.0",
-  "devDependencies": {}
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "superagent": "^0.18.0"
+  }
 }
