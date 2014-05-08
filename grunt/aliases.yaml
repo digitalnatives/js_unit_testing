@@ -1,0 +1,4 @@
+test:
+  - 'jshint'
+  - 'karma'
+  - 'mochaTest:test'

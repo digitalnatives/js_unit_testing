@@ -3,7 +3,7 @@ var expect = chai.expect;
 var sinon = require('sinon');
 
 var User = require('../src/user');
-var request = require("superagent");
+var request = require('superagent');
 
 describe('User/Model', function() {
   var dummyUserData = {
@@ -28,13 +28,13 @@ describe('User/Model', function() {
 
     beforeEach(function() {
       user = new User(dummyUserData);
-      response = {
-        "id": 1,
-        "first_name": "Second First",
-        "last_name": "Second Last",
-        "status": "active"
+      var response = {
+        'id': 1,
+        'first_name': 'Second First',
+        'last_name': 'Second Last',
+        'status': 'active'
       };
-      sinon.stub(request, "get").yields(response);
+      sinon.stub(request, 'get').yields(response);
     });
 
     afterEach(function() {
