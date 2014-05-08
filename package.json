@@ -2,7 +2,9 @@
   "name": "js_unit_test",
   "version": "0.1.0",
   "devDependencies": {
+    "chai": "^1.9.1",
     "mocha": "^1.18.2",
+    "sinon": "^1.9.1",
     "superagent": "^0.18.0"
   }
 }
