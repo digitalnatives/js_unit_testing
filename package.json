@@ -2,6 +2,9 @@
   "name": "js_unit_test",
   "version": "0.1.0",
   "devDependencies": {
+    "browserify": "^3.46.0",
+    "karma": "^0.12.14",
+    "karma-browserify": "^0.2.0",
     "mocha": "^1.18.2",
     "superagent": "^0.18.0"
   }
