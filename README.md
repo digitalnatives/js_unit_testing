@@ -2,6 +2,7 @@
 
 ```
 install nodejs on your machine
+install karma on your machine globally
 ```
 
 ##Unit testing with a browser
@@ -30,9 +31,13 @@ karma start
 ```sh
 git checkout both
 npm install
-karma start
-mocha
 ```
+
+###Karma
+karma start
+
+###Mocha
+mocha
 
 ##Unit testing with both (grunt)
 ```sh
