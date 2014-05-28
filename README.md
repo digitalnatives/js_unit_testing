@@ -34,10 +34,14 @@ npm install
 ```
 
 ###Karma
+```sh
 karma start
+```
 
 ###Mocha
+```sh
 mocha
+```
 
 ##Unit testing with grunt
 ```sh
