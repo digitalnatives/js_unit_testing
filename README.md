@@ -27,7 +27,7 @@ npm install
 karma start
 ```
 
-##Unit testing with both
+##Unit testing with karma and mocha (same tests)
 ```sh
 git checkout both
 npm install
@@ -39,16 +39,16 @@ karma start
 ###Mocha
 mocha
 
-##Unit testing with both (grunt)
+##Unit testing with grunt
 ```sh
 git checkout grunt
 ```
 
-###Mocha with grunt
+###Mocha
 grunt mochaTest
 
-###Karma with grunt
+###Karma
 grunt karma
 
-###Watch with grunt (auto run tests and jsint on file changes)
+###Watch (auto run tests and jshint on file changes)
 grunt watch
