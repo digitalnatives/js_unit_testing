@@ -24,7 +24,7 @@ karma start
 ```sh
 git checkout node
 npm install
-karma start
+mocha
 ```
 
 ##Unit testing with karma and mocha (same tests)
