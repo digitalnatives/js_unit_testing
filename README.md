@@ -45,10 +45,16 @@ git checkout grunt
 ```
 
 ###Mocha
+```sh
 grunt mochaTest
+```
 
 ###Karma
+```sh
 grunt karma
+```
 
 ###Watch (auto run tests and jshint on file changes)
+```sh
 grunt watch
+```
