@@ -37,7 +37,13 @@ mocha
 ##Unit testing with both (grunt)
 ```sh
 git checkout grunt
-npm install
-karma start
-mocha
 ```
+
+###Mocha with grunt
+grunt mochaTest
+
+###Karma with grunt
+grunt karma
+
+###Watch with grunt (auto run tests and jsint on file changes)
+grunt watch
